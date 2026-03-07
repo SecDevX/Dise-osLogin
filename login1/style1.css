@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-decoration-break: clone;
+}
+
+#container-login1 {
+    background: url('img-back.jpeg ');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.1); /* Blanco con trasnparencia */
+    backdrop-filter: blur(10px); /* Desenfoca lo de atras */
+    padding: 60px 50px;
+    gap: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 15px;
+}
+
+.box-label {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    padding: 5px 5px;
+    outline: none;
+    color: white;
+    width: 100%;
+}
+
+.box-label::placeholder {
+    color: rgba(255, 255, 255, 0.7)
+}
+
+.box-label:focus {
+    border-bottom: 2px solid white;
+}
+
+#btn-login {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 25px;
+    padding: 15px 40px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: opacity 0.3s;
+}
+
+#btn-login:hover {
+    opacity: 0.9;
+}
+
+#btn-register {
+    background: rgba(255, 255, 255, 0.1);;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 15px 40px;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: opacity 0.3s;
+}

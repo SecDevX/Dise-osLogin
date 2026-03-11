@@ -15,22 +15,38 @@
 form {
     background: rgba(255, 255, 255, 0.1); /* Blanco con trasnparencia */
     backdrop-filter: blur(10px); /* Desenfoca lo de atras */
-    padding: 60px 50px;
-    gap: 20px;
+    padding: 60px 40px;
+    gap: 25px;
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     border: 2px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border-radius: 15px;
+    width: 320px;
+}
+
+#text-main {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.box-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 17px;
 }
 
 .box-label {
     border: none;
     border-bottom: 1px solid white;
     background: transparent;
-    padding: 5px 5px;
+    padding: 5px 0;
     outline: none;
     color: white;
     width: 100%;
@@ -44,11 +60,19 @@ form {
     border-bottom: 2px solid white;
 }
 
+.box-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+
 #btn-login {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(177, 175, 175, 0.527);
+    width: 100%;
     border: none;
     border-radius: 25px;
-    padding: 15px 40px;
+    padding: 15px 0;
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -61,10 +85,11 @@ form {
 }
 
 #btn-register {
-    background: rgba(255, 255, 255, 0.1);;
+    background: rgba(36, 35, 35, 0.219);
+    width: 100%;
     border: 2px solid white;
     border-radius: 25px;
-    padding: 15px 40px;
+    padding: 15px 0;
     color: white;
     cursor: pointer;
     letter-spacing: 1px;

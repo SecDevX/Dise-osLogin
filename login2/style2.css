@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container-login2 {
+    background: url('dienteleon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    padding: 60px 50px;
+    gap: 30px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border: none;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.38);
+    width: 450px;
+}
+
+.box-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    padding: 18px 20px;
+    gap: 10px;
+    flex-direction: row-reverse;
+}
+
+.input-group i {
+    color: #fff;
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+}
+
+.box-label {
+    color: #fff;
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.box-label::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.box-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+#btn-login {
+    background: rgb(0, 90, 126);
+    color: rgba(12, 163, 223, 0.719);
+    border: none;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px 20px;
+}

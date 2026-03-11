@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container-login3 {
+    background: url('fondolamp.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    color: #fff;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+    padding: 20px 0;
+    border-radius: 25px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 380px;
+}
+
+#icon-group {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#icon-group i {
+    font-size: 30px;
+}
+
+#box-labels {
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 60px;
+}
+
+.box-label {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.4);
+    padding: 12px;
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.box-label:focus {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+#box-button {
+    display: flex;
+    flex-direction: column;
+    margin: 0 60px;
+    margin-bottom: 30px;
+}
+
+#btn-login {
+    background: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+    transition: transform 0.2s;
+    letter-spacing: 1px;
+}
+
+#btn-login:hover {
+    transform: scale(1.02);
+}
